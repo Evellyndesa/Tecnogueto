@@ -101,3 +101,16 @@ body {
     margin-right: 12px;
     text-decoration: none;
 }
+
+
+/*Geral*/
+
+.titulo-principal {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+.imagem-celular {
+
+}
