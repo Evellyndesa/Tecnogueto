@@ -78,6 +78,7 @@ body {
 .informacoes-do-cabecalho,
 .informacoes-do-cabecalho nav {
     display: flex;
+    align-items: center;
 }
 
 .informacoes-do-cabecalho img,
@@ -92,5 +93,10 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
+    text-decoration: none;
+}
+
+.botoes-lojas a {
+    margin-right: 12px;
     text-decoration: none;
 }
