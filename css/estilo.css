@@ -162,7 +162,8 @@ body {
     flex-wrap: wrap;
 }
 
-.blocos-de-conquistas {
+.blocos-de-conquistas,
+.conteudo-vamos-la {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -172,3 +173,7 @@ body {
     margin-right: 16px;
 }   
 
+/* Vamos lá*/
+.conteudo-vamos-la {
+    justify-content: space-between;
+}
