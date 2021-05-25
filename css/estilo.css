@@ -109,6 +109,7 @@ body {
     font-weight: 800;
     font-size: 72px;
     line-height: 98px;
+    margin-bottom: 32px;
 }
 
 .botao {
@@ -122,4 +123,20 @@ body {
 .botao:hover {
     background: violet;
 }
+
+/*banner principal*/
+
+.banner-principal {
+    background-image: url(../imagens/bg-banner.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner {
+    padding-top: 96px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
 
