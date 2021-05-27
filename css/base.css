@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+:root {
+    --cor-rosa: #FF3773;
+    --cor-verde: #28F5BE;
+    --cor-branca: #ffffff;
+}
 body {
     font-family: 'Manrope', sans-serif;
     color: #333;
@@ -28,11 +33,11 @@ body {
 }
 
 .cor-verde {
-    color: #28F5BE;
+    color: var(--cor-verde);
 }
 
 .cor-rosa {
-    color: palevioletred;
+    color: var(--cor-rosa)
 }
 
 .titulo-bloco-de-recursos {
@@ -69,7 +74,7 @@ body {
 /*Cabeçalho*/
 
 .cabecalho {
-    background-color: white;
+    background-color: var(--cor-branca);
     box-shadow: 0px 1px 0px #E5E9F2;
     padding: 26px 0px; 
 }
@@ -120,8 +125,8 @@ body {
 }
 
 .botao {
-    background: #28F5BE;
-    color: #FFFFFF;
+    background: var(--cor-verde);
+    color: var(--cor-branca);
     text-decoration: none;
     text-align: center;
     border-radius: 8px;
@@ -129,5 +134,5 @@ body {
 }
 
 .botao:hover {
-    background: violet;
+    background: var(--cor-rosa);
 }

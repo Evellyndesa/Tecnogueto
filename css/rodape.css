@@ -6,7 +6,7 @@
 
 .todo-conteudo-rodape .conteudo-rodape {
     
-    color: white;
+    color: var(--cor-branca);
     text-decoration: none;
 }
 .conteudo-rodape {
@@ -25,7 +25,7 @@
 }
 .menu-rodape ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--cor-branca);
 }
 .botoes-download-rodape {
     display: flex;
