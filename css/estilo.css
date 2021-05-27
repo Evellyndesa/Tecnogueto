@@ -146,6 +146,40 @@ body {
     justify-content: space-between;
 }   
 
+/* Depoimentos */
+
+.todos-os-depoimentos {
+    background-color: #28F5BE;
+    padding-top: 120px;
+    padding-bottom: 152px;
+    margin: 64px 0;
+}
+.depoimento {
+    background: #FFFFFF;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: -50px 5px 80px gray;
+}
+
+.depoimento p, 
+.depoimento h3 {
+    color: #18191F;
+    font-size: 18px;
+}
+.depoimento p {
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.depoimento h3 {
+    line-height: 28px;
+}
+.depoimento h4 {
+    font-weight: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+
 /* Nossas conquistas*/
 
 .todas-nossas-conquistas {
@@ -206,6 +240,42 @@ body {
 }
 
 .todo-conteudo-gerencia-projetos .botoes-lojas {
-    margin-top: 48px;
+    margin-top: 48px;   
+}
+
+/*Rodapé*/
+.rodape {
+    background-color: #0B0D17;
+    padding:56px 86px;
+}
+
+.todo-conteudo-rodape .conteudo-rodape {
     
+    color: white;
+    text-decoration: none;
+}
+.conteudo-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-rodape ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 24px;
+    
+}
+.menu-rodape ul li {
+    margin-right: 24px;
+}
+.menu-rodape ul li a {
+    text-decoration: none;
+    color: white;
+}
+.botoes-download-rodape {
+    display: flex;
+    flex-direction:column;
+}
+.botoes-download-rodape a {
+    margin-top: 16px;
 }
