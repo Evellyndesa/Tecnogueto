@@ -10,10 +10,11 @@
 
     --fonte-14: 0.875rem;
 }
+
 body {
     font-family: 'Manrope', sans-serif;
-    color: #333;
-    font-size: 1rem;
+    color: #333333;
+    font-size: 16px;
     line-height: 1.625rem;
 }
 
