@@ -1,5 +1,5 @@
-
 @media screen and (max-width: 30rem) {
+
     .todos-os-blocos-de-recursos,
     .banner,
     .bloco-depoimentos,
@@ -18,12 +18,14 @@
     }
 
     .depoimento,
-    .margin-negative-110 .depoimento:first-child {
+    .margin-negative-110 
+    .depoimento:first-child {
         margin: 0;
     }
 
     .botoes-lojas {
         margin-top: 1.25rem;
+        display: flex;
     }
 
     .imagem-celular {
@@ -38,5 +40,9 @@
         width: 100%;
         height: auto;
         display: block;
+    }
+
+    .margin-top-20 {
+        margin-top: 1.25rem;
     }
 }
